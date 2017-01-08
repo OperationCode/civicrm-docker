@@ -16,6 +16,6 @@ COPY civicrm.conf /etc/nginx/conf.d/default.conf
 # Cleanup
 RUN apt-get clean \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-LABEL Description="Docker for Snowdrift.coop CRM. Debian Jessie+nginx+MariaDB+PHP5.6+Drupal7/Drush+CiviCRM" \
+  
+LABEL Description="Docker for operationcode.org CRM. Debian Jessie+nginx+MariaDB+PHP5.6+Drupal7/Drush+CiviCRM" \
   Version="0.0.1"
