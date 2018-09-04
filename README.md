@@ -1,4 +1,7 @@
 # CiviCRM + Docker
+
+## NOTE - This is no longer under active development or maintenance, use at your own risk.
+
 This application is heavily based on previous work by [altsalt](https://github.com/altsalt/civicrm-docker).
 
 # Architecture
